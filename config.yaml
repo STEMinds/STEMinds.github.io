@@ -164,3 +164,8 @@ params:
       #    link: /blog/first
       #  - text: Tech articles
       #    link: /blog/second
+
+sitemap:
+  changefreq: weekly
+  filename: sitemap.xml
+  priority: 0.5
