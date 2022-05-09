@@ -1,3 +1,0 @@
-# STEMinds
-
-STEMinds official website
