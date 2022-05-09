@@ -1,0 +1,166 @@
+baseURL: https://steminds.com/
+languageCode: en-us
+title: STEMinds - Edtech hardware, IoT, and agriculture kits.
+theme: hugo-fresh
+googleAnalytics: UA-165700957-1
+# Disables warnings
+disableKinds:
+- taxonomy
+- taxonomyTerm
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allows you to write raw html in your md files
+
+params:
+  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+  openGraph: true
+  # Used as meta data; describe your site to make Google Bots happy
+  description: STEMinds ESP32, Raspberry Pi, Arduino hardware learning kits; Eduponics IoT smart agriculture and Hydroponics DIY kit, Build your own smart garden.
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+    image: logos/logo.svg
+    link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: Learn skills like never before.
+    # Hero subtitle (optional)
+    subtitle: Hands-on hardware skills to learn practical industry 4.0 skills. We work with distributors around the globe to bring cutting edge edtech hardware to the masses.
+    # Button text
+    buttontext: Learn more
+    # Where the main hero button links to
+    buttonlink: "/about-us"
+    # Hero image (from static/images/___)
+    image: logos/bulb.svg
+    # Footer logos (from static/images/logos/clients/___.svg)
+    #clientlogos:
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: Documentation
+    url: "https://docs.steminds.com/"
+  - title: Forum
+    url: "https://github.com/STEMinds/STEMinds-Docs/discussions"
+  - title: Distributors
+    sublinks:
+    - title: "Elecrow"
+      url: "https://elecrow.com/"
+    - title: Crowdsupply
+      url: "https://crowdsupply.com/STEMinds/eduponics-mini"
+    - title: "Mouser electronics"
+      url: "https://www.mouser.com/new/steminds/"
+  - title: About
+    url: "/about-us"
+  - title: Contact
+    url: "mailto:contact@steminds.com"
+  sidebar:
+    # Logo (from /images/logos/___.svg)
+    logo: logo
+    sections:
+    - title: User
+      icon: user
+      links:
+      - text: Profile
+        url: /
+      - text: Account
+        url: /
+      - text: Settings
+        url: /
+    - title: Messages
+      icon: envelope
+      links:
+      - text: Inbox
+        url: /
+      - text: Compose
+        url: /
+    - title: Images
+      icon: image
+      links:
+      - text: Library
+        url: /
+      - text: Upload
+        url: /
+    - title: Settings
+      icon: cog
+      links:
+      - text: User settings
+        url: /
+      - text: App settings
+        url: /
+  section1:
+    title: Why buy our kits?
+    subtitle: 
+    tiles:
+    - title: Support & documentation
+      icon: mouse-globe
+      text: Complete documentation and open source code
+      url: "https://github.com/STEMinds"
+      buttonText: Check our github
+    - title: Global distribution
+      icon: laptop-cloud
+      text: STEMinds kits directly from trusted distributor!
+      url: /distributors
+      buttonText: Find distributor
+    - title: Real-life applications
+      icon: plug-cloud
+      text: Not a toy, a long term real-scenerio based hardware!
+      url: /use-cases
+      buttonText: Learn more
+  section4:
+    title: We are on the news!
+    subtitle: Read what people write about our hardware kits
+    clients:
+    - name: "Geeky gadgets"
+      quote: "The Eduponics Mini’s industrial-grade hardware at an affordable price – an excellent ready-made irrigation system, automatic watering for your plants, or as an educational tool that collects highly accurate sensor data and performs automation."
+      link: "https://www.geeky-gadgets.com/eduponics-mini-smart-agriculture-iot-kit-05-01-2021/"
+
+    - name: "Hackster"
+      quote: "The Eduponics Mini development board is based on the ESP32-WROVER microcontroller. The board packs an AT24C02 EEPROM chip that supports up to eight devices on the bus and is widely used in low-power commercial applications."
+      link: "https://www.hackster.io/news/steminds-launches-eduponics-mini-smart-agriculture-iot-dev-kit-1495b7eb6ce7"
+    
+    - name: "CNX Software"
+      quote: "STEMinds Eduponics Mini Smart Agriculture kit is designed for this purpose. At the heart of the kit is an ESP32 board equipped with light, temperature, humidity, and barometric sensors, as well as interfaces to connect external pump, soil moisture sensor, water quality sensor, and more environmental sensors."
+      link: "https://www.cnx-software.com/2021/03/13/eduponics-mini-is-an-esp32-powered-smart-agriculture-kit-crowdfunding/"
+
+  section5: true
+  footer:
+    # Logo (from /images/logos/___)
+    logo: white_logo.svg
+    # Social Media Title
+    socialmediatitle: Follow Us
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://github.com/STEMinds
+      # Icons are from Font Awesome
+      icon: github
+    - link: https://facebook.com/STEMinds
+      icon: facebook
+    - link: https://twitter.com/STEMinds
+      icon: twitter
+    bulmalogo: false
+    quicklinks:
+      column1:
+        title: "Products"
+        links:
+        - text: Eduponics series
+          link: /products/eduponics
+        - text: Eduponics Mobile APP
+          link: /products/eduponics-app
+      column2:
+        title: "Docs"
+        links:
+        - text: Get started
+          link: https://docs.steminds.com/
+        - text: Eduponics Mini
+          link: https://docs.steminds.com/eduponics-mini
+        - text: STEMinds github
+          link: https://github.com/STEMinds
+      #column3:
+      #  title: "Blog"
+      #  links:
+      #  - text: Latest news
+      #    link: /blog/first
+      #  - text: Tech articles
+      #    link: /blog/second
