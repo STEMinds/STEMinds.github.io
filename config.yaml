@@ -165,7 +165,11 @@ params:
       #  - text: Tech articles
       #    link: /blog/second
 
+# generate sitemap
 sitemap:
   changefreq: weekly
   filename: sitemap.xml
   priority: 0.5
+
+# generate robots
+enableRobotsTXT: true
