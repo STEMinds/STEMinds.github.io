@@ -107,7 +107,7 @@ params:
       icon: plug-cloud
       text: Not a toy, a long term real-scenerio based hardware!
       url: /use-cases
-      buttonText: Learn more
+      buttonText: Read use-cases
   section4:
     title: We are on the news!
     subtitle: Read what people write about our hardware kits
