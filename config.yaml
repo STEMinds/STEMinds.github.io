@@ -154,7 +154,7 @@ params:
         - text: Get started
           link: https://docs.steminds.com/
         - text: Eduponics Mini
-          link: https://docs.steminds.com/eduponics-mini
+          link: https://docs.steminds.com/kits/eduponics_mini/introduction/
         - text: STEMinds github
           link: https://github.com/STEMinds
       #column3:
