@@ -157,14 +157,7 @@ params:
           link: https://docs.steminds.com/kits/eduponics_mini/introduction/
         - text: STEMinds github
           link: https://github.com/STEMinds
-      #column3:
-      #  title: "Blog"
-      #  links:
-      #  - text: Latest news
-      #    link: /blog/first
-      #  - text: Tech articles
-      #    link: /blog/second
-
+          
 # generate sitemap
 sitemap:
   changefreq: weekly
